@@ -9,5 +9,4 @@ $("#img-inp").change(function(){
 
         reader.readAsDataURL(input.files[0]);
     }
-    console.log('xxxx');
 });

@@ -33,7 +33,7 @@ class UserProfile extends \yii\db\ActiveRecord
             [['fullname'], 'required'],
             [['photo_id'], 'integer'],
             [['fullname'], 'string', 'max' => 255],
-            [['file'], 'file'],
+            [['file'], 'file', 'mimeTypes' => ['image/png', 'image/jpeg', 'image/jpg']],
             [['id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id']],
         ];
     }
