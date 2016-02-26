@@ -30,7 +30,10 @@ class m160225_045722_blog extends Migration
             'PRIMARY KEY ([[article_id]], [[tag]])'
             ], $tableOptions);
 
-        
+        $posts = require('posts.php');
+        foreach ($posts as $post) {
+            $this->insert('{{%post}}', $post);
+        }
     }
 
     public function down()
