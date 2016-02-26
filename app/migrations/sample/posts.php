@@ -2,6 +2,7 @@
 return [
     [
         'title' => 'Simple RBAC with Yii2 Mimin',
+        'author_id' => '1',
         'categori' => 'yii2',
         'body' => 'Simple RBAC Manager fo Yii 2.0. Minify of [yii2-admin](https://github.com/mdmsoft/yii2-admin) extension with awesome features
 
@@ -61,12 +62,12 @@ in config
 ],
 ```
 ',
-        'author' => '1',
         'created_at' => '1456450535',
         'updated_at' => '1456450535',
     ],
     [
         'title' => 'Yii PHP Framework Version 2',
+        'author_id' => '1',
         'categori' => 'yii2',
         'body' => 'Thank you for choosing Yii 2 - a modern PHP framework designed for professional Web development.
 
@@ -106,7 +107,6 @@ and a [Definitive Guide Mirror](http://stuff.cebe.cc/yii2docs/) which is updated
 For 1.1 users, you may refer to [Upgrading from Yii 1.1](docs/guide/intro-upgrade-from-v1.md)
 to have a general idea of what has changed in 2.0.
 ',
-        'author' => '1',
         'created_at' => '1456450893',
         'updated_at' => '1456451011',
     ],

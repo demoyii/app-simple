@@ -16,10 +16,10 @@ class m160225_045722_blog extends Migration
         $this->createTable('{{%post}}', [
             'id' => $this->primaryKey(),
             'title' => $this->string(128)->notNull(),
+            'author_id' => $this->integer()->notNull(),
             'categori' => $this->string(64),
             'slug' => $this->string(128),
             'body' => $this->text()->notNull(),
-            'author' => $this->integer()->notNull(),
             'created_at' => $this->integer(),
             'updated_at' => $this->integer(),
             ], $tableOptions);

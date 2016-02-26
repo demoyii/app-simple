@@ -1,5 +1,8 @@
 Yii 2 Single Project Template
 ===============================
+> Repo ini untuk keperluan workshop di Nurul Fikri. Tentu saja ini bisa dipakai untuk keperluan yang lain. 
+Tetapi saya sarankan memakai original repo yaitu [deesoft/yii2-app-single](https://github.com/deesoft/yii2-app-single). 
+Versi archive dari repo ini dapat diunduh dari [sini](https://goo.gl/16Kbv2).
 
 Yii 2 Single Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
