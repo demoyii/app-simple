@@ -6,7 +6,7 @@ $config = [
             'cookieValidationKey' => '',
         ],
         'urlManager' => [
-            'enablePrettyUrl' => true,
+            'enablePrettyUrl' => false,
             //'showScriptName' => false,
             'rules' => [
                 'page/<view:\w+>'=>'site/page',
